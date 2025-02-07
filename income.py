@@ -4,9 +4,9 @@ from bs4 import BeautifulSoup
 import asyncio
 import browser_cookie3
 
-TOKEN = "MTMzNzQxMTMxMDU2ODM0MTUwNQ.GFZtWh.1dwsBWrIlgvCl-tWMaSETpNpsQiyiaDZUy2e5A"
+TOKEN = "MTMzNzQxMTMxMDU2ODM0MTUwNQ.GyHLoJ.y7aLxMHXKLQ76dpYnpAmGlr8LCQuGwkoU4w_jg"
 URL = "https://klanhaboru.hu/game.php?village=YOUR_VILLAGE_ID&screen=overview_villages"
-CHANNEL_ID = YOUR_CHANNEL_ID  # Cseréld le a saját csatorna ID-ra
+CHANNEL_ID = 1331251871372939285
 
 intents = discord.Intents.default()
 intents.messages = True
